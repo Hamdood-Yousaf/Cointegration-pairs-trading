@@ -1,0 +1,14 @@
+Libraries required
+
+pandas
+numpy
+matplotlib
+statsmodels
+ittertools
+yfinance
+
+Working Procedure
+
+Download stock OHLC data using downloading_data_to_csv.py
+After downloading multiple stock datas run those under Engle-Granger 2 step coint test from statistically_proven_pair_selection.py
+After getting the best fit of OLS regression run that regression through Z-score_calculation_with_and_without_walk_forward_bias_and_risk_metrics.py
